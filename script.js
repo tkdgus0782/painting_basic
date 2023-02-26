@@ -4,8 +4,8 @@ function init(){
 	window.canvas = document.getElementById('paint');	
 	window.scr = canvas.getContext('2d');
 	
-	canvas.width = document.body.offsetWidth * 0.8;
-	canvas.height = canvas.width * 0.75;
+	canvas.width = document.body.offsetWidth * 0.6;
+	canvas.height = canvas.width * 0.6;
 	
 	window.width = canvas.width;
 	window.height = canvas.height;
